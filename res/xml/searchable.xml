@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:hint="@string/search_hint"
+    android:imeOptions="flagNoFullscreen"
+    android:label="@string/app_name"
+    android:searchSettingsDescription="@string/settings_description"
+    android:searchSuggestAuthority="org.stevej.android.propertyfinder.providers.TradeMePlaceProvider"
+    android:searchSuggestIntentAction="org.stevej.android.propertyfinder.action.ADD_PLACE"
+    android:searchSuggestIntentData="content://org.stevej.android.propertyfinder.providers.TradeMePlaceProvider/places"
+    android:searchSuggestSelection=" ?"
+    android:searchSuggestThreshold="1" >
+
+</searchable>

@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="activated" parent="android:Theme.Holo.Light">
+        <item name="android:background">?android:attr/activatedBackgroundIndicator</item>
+    </style>
+
+</resources>

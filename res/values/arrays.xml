@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="suburb_list">
+        <item>Frankton</item>
+        <item>Hillcrest</item>
+        <item>Silverdale</item>
+        <item>Hamilton East</item>
+        <item>Dinsdale</item>
+        <item>Maeroa</item>
+        <item>Horsham Downs</item>
+    </string-array>
+
+    <string-array name="suburb_ids">
+        <item>1244</item>
+        <item>1241</item>
+        <item>1186</item>
+        <item>1240</item>
+        <item>1380</item>
+        <item>1153</item>
+        <item>777</item>
+    </string-array>
+
+</resources>

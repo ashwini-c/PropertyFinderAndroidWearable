@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Property Finder</string>
+    <string name="action_bar_search">Search</string>
+    <string name="action_bar_share">Share</string>
+    <string name="action_bar_sort">Sort</string>
+    <string name="action_bar_map">Map</string>
+    <string name="action_bar_sort_alpha">Alphabetically</string>
+    <string name="action_bar_sort_price_asc">By price (low to high)</string>
+    <string name="action_bar_sort_price_desc">By price (high to low)</string>
+    <string name="action_bar_dump_sensors">Dump sensor info to Logcat</string>
+    <string name="action_bar_send_notification">Send Android wear Notification</string>
+    <string name="action_bar_single_screen_settings">Single screen settings</string>
+    <string name="action_bar_legal">Legal Notices</string>
+    <string name="search_hint">Search for places</string>
+    <string name="pref_group_location_title">Location</string>
+    <string name="pref_group_location_summary">Configure use of your location</string>
+    <string name="pref_group_startup_title">Startup</string>
+    <string name="pref_group_startup_summary">Configure application start up behaviour</string>
+    <string name="pref_group_trademe_title">TradeMe</string>
+    <string name="pref_group_trademe_summary">Configure TradeMe features</string>
+    <string name="pref_previous_session_category">Previous session</string>
+    <string name="pref_restore_summary">PropertyFinder can restore your previous session when it launches</string>
+    <string name="pref_restore_title">Restore previous session</string>
+    <string name="pref_startup_location_category">Use location on startup</string>
+    <string name="pref_startup_location_summary">PropertyFinder can automatically search for nearby properties when it launches</string>
+    <string name="pref_startup_location_title">Search on launch</string>
+    <string name="pref_location_category">Your location</string>
+    <string name="pref_allow_location_summary">PropertyFinder can use your current location to find nearby properties</string>
+    <string name="pref_allow_location_title">Allow my location to be used</string>
+    <string name="pref_location_network_summary">PropertyFinder can use your mobile and wireless networks to estimate your location</string>
+    <string name="pref_location_network_title">Use mobile and wireless network location</string>
+    <string name="pref_location_gps_summary">PropertyFinder can use your devices GPS sensor to estimate your location</string>
+    <string name="pref_location_gps_title">Use GPS</string>
+    <string name="pref_location_alerts_summary">Show an alert when one or more location sources are unavailable</string>
+    <string name="pref_location_alerts_title">Alerts</string>
+    <string name="pref_trademe_request_category">Requests to TradeMe</string>
+    <string name="pref_num_to_load_key">pref_num_to_load</string>
+    <string name="pref_num_to_load_title">Number of properties</string>
+    <string name="pref_num_to_load_summary">Maximum number of properties retrieved when searching TradeMe</string>
+    <string name="settings_description">Search for TradeMe Places</string>
+    <string name="newLine">\r\n</string>
+
+</resources>

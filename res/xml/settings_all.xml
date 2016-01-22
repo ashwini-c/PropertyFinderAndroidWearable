@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_location_category" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_allow_location"
+            android:summary="@string/pref_allow_location_summary"
+            android:title="@string/pref_allow_location_title" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="pref_allow_location"
+            android:key="pref_location_network"
+            android:summary="@string/pref_location_network_summary"
+            android:title="@string/pref_location_network_title" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="pref_allow_location"
+            android:key="pref_location_gps"
+            android:summary="@string/pref_location_gps_summary"
+            android:title="@string/pref_location_gps_title" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_location_alerts"
+            android:summary="@string/pref_location_alerts_summary"
+            android:title="@string/pref_location_alerts_title" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/pref_previous_session_category" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_restore"
+            android:summary="@string/pref_restore_summary"
+            android:title="@string/pref_restore_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_startup_location_category" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_startup_location"
+            android:summary="@string/pref_startup_location_summary"
+            android:title="@string/pref_startup_location_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_trademe_request_category" >
+        <org.stevej.android.propertyfinder.customui.NumberPickerPreference
+            android:defaultValue="10"
+            android:key="pref_num_to_load"
+            android:summary="@string/pref_num_to_load_summary"
+            android:title="@string/pref_num_to_load_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
